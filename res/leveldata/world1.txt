@@ -1,0 +1,510 @@
+<gameworld>
+        <properties>
+                <property id="1" type="municipal" municipalid="1"/>
+                <property id="2" type="private" municipalid="1"/>
+                <property id="3" type="private" municipalid="1"/>
+                <property id="4" type="private" municipalid="1"/>
+                <property id="5" type="private" municipalid="1"/>
+                <property id="6" type="private" municipalid="1"/>
+                <property id="7" type="municipal" municipalid="7"/>
+                <property id="8" type="private" municipalid="7"/>
+                <property id="9" type="private" municipalid="7"/>
+                <property id="10" type="private" municipalid="7"/>
+                <property id="11" type="private" municipalid="7"/>
+                <property id="12" type="municipal" municipalid="12"/>
+                <property id="13" type="private" municipalid="12"/>
+                <property id="14" type="private" municipalid="12"/>
+                <property id="15" type="private" municipalid="12"/>
+                <property id="16" type="municipal" municipalid="16"/>
+                <property id="17" type="private" municipalid="16"/>
+                <property id="18" type="private" municipalid="16"/>
+                <property id="19" type="private" municipalid="16"/>
+                <property id="20" type="railroad" municipalid="1"/>
+                <property id="21" type="railroad" municipalid="7"/>
+                <property id="22" type="railroad" municipalid="12"/>
+        </properties>
+        <tiles>
+                <tilerow>
+                        <tile propertyId="2" x="0" y="0">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="2" x="1" y="0">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="2" x="2" y="0">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="2" x="3" y="0"/>
+                        <tile propertyId="3" x="4" y="0"/>
+                        <tile propertyId="3" x="5" y="0"/>
+                        <tile propertyId="3" x="6" y="0"/>
+                        <tile propertyId="8" x="7" y="0"/>
+                        <tile propertyId="8" x="8" y="0">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="8" x="9" y="0"/>
+                        <tile propertyId="8" x="10" y="0"/>
+                        <tile propertyId="7" x="11" y="0"/>
+                        <tile propertyId="7" x="12" y="0"/>
+                        <tile propertyId="7" x="13" y="0"/>
+                        <tile propertyId="7" x="14" y="0"/>
+                        <tile propertyId="7" x="15" y="0"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="2" x="0" y="1"/>
+                        <tile propertyId="2" x="1" y="1">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="2" x="2" y="1">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="2" x="3" y="1">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="3" x="4" y="1"/>
+                        <tile propertyId="3" x="5" y="1">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="3" x="6" y="1">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="8" x="7" y="1"/>
+                        <tile propertyId="8" x="8" y="1">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="8" x="9" y="1"/>
+                        <tile propertyId="8" x="10" y="1"/>
+                        <tile propertyId="7" x="11" y="1"/>
+                        <tile propertyId="7" x="12" y="1">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="7" x="13" y="1">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="7" x="14" y="1">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="7" x="15" y="1">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="2" x="0" y="2"/>
+                        <tile propertyId="2" x="1" y="2"/>
+                        <tile propertyId="2" x="2" y="2">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="2" x="3" y="2">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="3" x="4" y="2">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="3" x="5" y="2">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="3" x="6" y="2">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="8" x="7" y="2">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="8" x="8" y="2">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="8" x="9" y="2"/>
+                        <tile propertyId="8" x="10" y="2"/>
+                        <tile propertyId="7" x="11" y="2"/>
+                        <tile propertyId="7" x="12" y="2"/>
+                        <tile propertyId="7" x="13" y="2">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="7" x="14" y="2"/>
+                        <tile propertyId="10" x="15" y="2"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="2" x="0" y="3"/>
+                        <tile propertyId="2" x="1" y="3"/>
+                        <tile propertyId="2" x="2" y="3"/>
+                        <tile propertyId="1" x="3" y="3">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="1" x="4" y="3">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="3" x="5" y="3">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="3" x="6" y="3"/>
+                        <tile propertyId="6" x="7" y="3">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="6" x="8" y="3">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="8" x="9" y="3"/>
+                        <tile propertyId="8" x="10" y="3">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="8" x="11" y="3"/>
+                        <tile propertyId="7" x="12" y="3">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="7" x="13" y="3">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="10" x="14" y="3">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="10" x="15" y="3"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="4" x="0" y="4"/>
+                        <tile propertyId="4" x="1" y="4"/>
+                        <tile propertyId="4" x="2" y="4">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="1" x="3" y="4">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="1" x="4" y="4">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="1" x="5" y="4">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="6" x="6" y="4">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="6" x="7" y="4"/>
+                        <tile propertyId="6" x="8" y="4">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="9" x="9" y="4">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="9" x="10" y="4"/>
+                        <tile propertyId="9" x="11" y="4"/>
+                        <tile propertyId="9" x="12" y="4">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="10" x="13" y="4">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="10" x="14" y="4"/>
+                        <tile propertyId="10" x="15" y="4"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="4" x="0" y="5"/>
+                        <tile propertyId="4" x="1" y="5"/>
+                        <tile propertyId="4" x="2" y="5"/>
+                        <tile propertyId="1" x="3" y="5"/>
+                        <tile propertyId="1" x="4" y="5">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="1" x="5" y="5"/>
+                        <tile propertyId="6" x="6" y="5">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="6" x="7" y="5"/>
+                        <tile propertyId="6" x="8" y="5">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="9" x="9" y="5">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="9" x="10" y="5">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="9" x="11" y="5">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="9" x="12" y="5">
+                                <upgrade type="railroad" rrid="21"/>
+                        </tile>
+                        <tile propertyId="10" x="13" y="5"/>
+                        <tile propertyId="10" x="14" y="5"/>
+                        <tile propertyId="10" x="15" y="5">
+                                <upgrade type="barn"/>
+                        </tile>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="4" x="0" y="6"/>
+                        <tile propertyId="4" x="1" y="6"/>
+                        <tile propertyId="4" x="2" y="6">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="4" x="3" y="6"/>
+                        <tile propertyId="1" x="4" y="6">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="1" x="5" y="6">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="6" x="6" y="6"/>
+                        <tile propertyId="6" x="7" y="6"/>
+                        <tile propertyId="6" x="8" y="6"/>
+                        <tile propertyId="9" x="9" y="6">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="9" x="10" y="6"/>
+                        <tile propertyId="9" x="11" y="6">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="11" x="12" y="6"/>
+                        <tile propertyId="11" x="13" y="6">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="10" x="14" y="6"/>
+                        <tile propertyId="10" x="15" y="6"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="4" x="0" y="7"/>
+                        <tile propertyId="4" x="1" y="7">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="4" x="2" y="7"/>
+                        <tile propertyId="4" x="3" y="7"/>
+                        <tile propertyId="5" x="4" y="7">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="5" x="5" y="7">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="5" x="6" y="7"/>
+                        <tile propertyId="6" x="7" y="7"/>
+                        <tile propertyId="6" x="8" y="7"/>
+                        <tile propertyId="9" x="9" y="7"/>
+                        <tile propertyId="9" x="10" y="7"/>
+                        <tile propertyId="11" x="11" y="7"/>
+                        <tile propertyId="11" x="12" y="7"/>
+                        <tile propertyId="11" x="13" y="7"/>
+                        <tile propertyId="10" x="14" y="7"/>
+                        <tile propertyId="10" x="15" y="7"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="4" x="0" y="8"/>
+                        <tile propertyId="4" x="1" y="8"/>
+                        <tile propertyId="4" x="2" y="8"/>
+                        <tile propertyId="4" x="3" y="8"/>
+                        <tile propertyId="5" x="4" y="8"/>
+                        <tile propertyId="5" x="5" y="8">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="5" x="6" y="8"/>
+                        <tile propertyId="6" x="7" y="8"/>
+                        <tile propertyId="6" x="8" y="8"/>
+                        <tile propertyId="13" x="9" y="8"/>
+                        <tile propertyId="13" x="10" y="8"/>
+                        <tile propertyId="11" x="11" y="8">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="11" x="12" y="8"/>
+                        <tile propertyId="11" x="13" y="8"/>
+                        <tile propertyId="12" x="14" y="8"/>
+                        <tile propertyId="12" x="15" y="8"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="17" x="0" y="9"/>
+                        <tile propertyId="17" x="1" y="9">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="17" x="2" y="9"/>
+                        <tile propertyId="17" x="3" y="9"/>
+                        <tile propertyId="5" x="4" y="9"/>
+                        <tile propertyId="5" x="5" y="9">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="5" x="6" y="9">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="6" x="7" y="9"/>
+                        <tile propertyId="13" x="8" y="9">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="13" x="9" y="9">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="13" x="10" y="9">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="11" x="11" y="9">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="11" x="12" y="9">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="11" x="13" y="9">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="12" x="14" y="9"/>
+                        <tile propertyId="12" x="15" y="9"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="17" x="0" y="10"/>
+                        <tile propertyId="17" x="1" y="10"/>
+                        <tile propertyId="17" x="2" y="10"/>
+                        <tile propertyId="17" x="3" y="10">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="5" x="4" y="10">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="5" x="5" y="10">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="16" x="6" y="10">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="16" x="7" y="10">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="13" x="8" y="10">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="13" x="9" y="10"/>
+                        <tile propertyId="13" x="10" y="10">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="13" x="11" y="10"/>
+                        <tile propertyId="13" x="12" y="10">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="12" x="13" y="10">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="12" x="14" y="10"/>
+                        <tile propertyId="12" x="15" y="10"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="18" x="0" y="11"/>
+                        <tile propertyId="17" x="1" y="11"/>
+                        <tile propertyId="17" x="2" y="11"/>
+                        <tile propertyId="17" x="3" y="11"/>
+                        <tile propertyId="5" x="4" y="11"/>
+                        <tile propertyId="5" x="5" y="11"/>
+                        <tile propertyId="16" x="6" y="11">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="16" x="7" y="11">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="15" x="8" y="11"/>
+                        <tile propertyId="13" x="9" y="11">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="13" x="10" y="11"/>
+                        <tile propertyId="13" x="11" y="11"/>
+                        <tile propertyId="12" x="12" y="11">
+                                <upgrade type="railroad" rrid="22"/>
+                        </tile>
+                        <tile propertyId="12" x="13" y="11"/>
+                        <tile propertyId="12" x="14" y="11"/>
+                        <tile propertyId="12" x="15" y="11"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="18" x="0" y="12"/>
+                        <tile propertyId="17" x="1" y="12">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="17" x="2" y="12"/>
+                        <tile propertyId="17" x="3" y="12"/>
+                        <tile propertyId="16" x="4" y="12">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="16" x="5" y="12"/>
+                        <tile propertyId="16" x="6" y="12">
+                                <upgrade type="railroad" rrid="20"/>
+                        </tile>
+                        <tile propertyId="15" x="7" y="12"/>
+                        <tile propertyId="15" x="8" y="12"/>
+                        <tile propertyId="13" x="9" y="12">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="13" x="10" y="12"/>
+                        <tile propertyId="13" x="11" y="12"/>
+                        <tile propertyId="12" x="12" y="12"/>
+                        <tile propertyId="12" x="13" y="12"/>
+                        <tile propertyId="12" x="14" y="12"/>
+                        <tile propertyId="12" x="15" y="12"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="18" x="0" y="13">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="18" x="1" y="13"/>
+                        <tile propertyId="19" x="2" y="13"/>
+                        <tile propertyId="19" x="3" y="13"/>
+                        <tile propertyId="16" x="4" y="13"/>
+                        <tile propertyId="16" x="5" y="13"/>
+                        <tile propertyId="16" x="6" y="13"/>
+                        <tile propertyId="15" x="7" y="13"/>
+                        <tile propertyId="15" x="8" y="13">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="15" x="9" y="13"/>
+                        <tile propertyId="15" x="10" y="13"/>
+                        <tile propertyId="14" x="11" y="13">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="14" x="12" y="13"/>
+                        <tile propertyId="14" x="13" y="13"/>
+                        <tile propertyId="12" x="14" y="13"/>
+                        <tile propertyId="12" x="15" y="13"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="18" x="0" y="14">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="18" x="1" y="14">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="19" x="2" y="14"/>
+                        <tile propertyId="19" x="3" y="14"/>
+                        <tile propertyId="19" x="4" y="14">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="16" x="5" y="14"/>
+                        <tile propertyId="16" x="6" y="14"/>
+                        <tile propertyId="15" x="7" y="14">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="15" x="8" y="14"/>
+                        <tile propertyId="15" x="9" y="14"/>
+                        <tile propertyId="15" x="10" y="14"/>
+                        <tile propertyId="14" x="11" y="14"/>
+                        <tile propertyId="14" x="12" y="14"/>
+                        <tile propertyId="14" x="13" y="14">
+                                <upgrade type="house"/>
+                        </tile>
+                        <tile propertyId="14" x="14" y="14"/>
+                        <tile propertyId="12" x="15" y="14"/>
+                </tilerow>
+                <tilerow>
+                        <tile propertyId="18" x="0" y="15"/>
+                        <tile propertyId="18" x="1" y="15"/>
+                        <tile propertyId="19" x="2" y="15">
+                                <upgrade type="propertyname"/>
+                        </tile>
+                        <tile propertyId="19" x="3" y="15"/>
+                        <tile propertyId="19" x="4" y="15"/>
+                        <tile propertyId="19" x="5" y="15">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="16" x="6" y="15"/>
+                        <tile propertyId="15" x="7" y="15"/>
+                        <tile propertyId="15" x="8" y="15"/>
+                        <tile propertyId="15" x="9" y="15">
+                                <upgrade type="barn"/>
+                        </tile>
+                        <tile propertyId="15" x="10" y="15"/>
+                        <tile propertyId="14" x="11" y="15"/>
+                        <tile propertyId="14" x="12" y="15"/>
+                        <tile propertyId="14" x="13" y="15"/>
+                        <tile propertyId="14" x="14" y="15"/>
+                        <tile propertyId="14" x="15" y="15">
+                                <upgrade type="barn"/>
+                        </tile>
+                </tilerow>
+        </tiles>
+</gameworld>
